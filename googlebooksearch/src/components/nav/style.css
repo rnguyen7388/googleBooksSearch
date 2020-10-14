@@ -1,18 +1,21 @@
 nav {
-  background-color: rgb(128,128,128)
+  background-image: url(https://i.pinimg.com/originals/16/b7/af/16b7afe9f815e640d500e2ee58603223.jpg);
+  padding-top: 15px;
 }
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 a:hover {
   text-decoration: underline;
-  color: white
+  color: gray;
 }
 
-.navbar-brand {
-  font-size: 35px;
+.text-light {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
 .nav-item {

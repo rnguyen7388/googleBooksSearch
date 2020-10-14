@@ -6,9 +6,13 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg text-light">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          Google Books
-        </Link>
+        <div className="jumbotron text-center">
+          <div className="container text-light">
+            <Link to ="/">
+            <h1>Google Books Search</h1>
+            </Link>
+          </div>
+        </div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link

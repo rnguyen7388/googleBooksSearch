@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/nav";
-import Header from "./components/header";
 import Wrapper from "./components/wrapper";
 import Search from "./pages/search";
 import Saved from "./pages/saved";
@@ -14,7 +13,6 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
-          <Header />
           <Wrapper>
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />
