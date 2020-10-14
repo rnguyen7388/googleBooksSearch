@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    Google Books Search is an application that allows users to search and save books.
 
 # Image
-![](googlebooksearch/public/googlesearch.PNG)
+![](public/googlesearch.PNG)
 
 
 ## Badges
